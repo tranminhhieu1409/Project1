@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorStatusBar">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tv_ten"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="@string/txt_Elephant"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </TableRow>
+    <WebView
+        android:id="@+id/wed_Info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

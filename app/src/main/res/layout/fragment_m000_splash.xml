@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStatusBar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_splash" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="340dp"
+        android:rotation="45"
+        android:src="@drawable/ic_anhvuong" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="380dp"
+        android:rotation="45"
+        android:src="@drawable/ic_anhvuong" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="380dp"
+        android:rotation="45"
+        android:src="@drawable/ic_anhvuong" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="420dp"
+        android:rotation="45"
+        android:src="@drawable/ic_anhvuong" />
+
+    <ImageView
+        android:id="@+id/iv_bee"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/ic_bee" />
+
+</FrameLayout>

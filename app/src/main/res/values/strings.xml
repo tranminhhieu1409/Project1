@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChuaBaiKiemTra</string>
+    <string name="txt_animal_sound">Animal Sound</string>
+    <string name="txt_Owl">Owl</string>
+    <string name="txt_Elephant">Elephant</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_Bee">Bee</string>
+    <string name="txt_pig">Pig</string>
+</resources>

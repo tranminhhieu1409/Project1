@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_do_vui"
+    android:orientation="vertical">
+
+   <TableRow android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TableRow
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/bg_button"
+           android:backgroundTint="@color/whiteAlpha"
+           android:paddingEnd="10dp">
+
+           <ImageView
+               android:id="@+id/iv_back"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:padding="10dp"
+               android:src="@drawable/ic_quaylai"
+               tools:ignore="ContentDescription" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:fontFamily="sans-serif"
+               android:gravity="center_vertical"
+               android:text="@string/txt_back"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+
+       </TableRow>
+       <View android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent"/>
+       <TableRow
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_marginEnd="20dp"
+           android:background="@drawable/bg_button"
+           android:backgroundTint="@color/whiteAlpha"
+           android:paddingEnd="10dp">
+
+           <TextView
+               android:id="@+id/tv_score"
+               android:paddingHorizontal="20dp"
+               android:paddingVertical="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:fontFamily="sans-serif"
+               android:gravity="center_vertical"
+               android:text="SCORE: 0"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+
+       </TableRow>
+
+   </TableRow>
+
+    <FrameLayout
+        android:id="@+id/fr_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/iv_card"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_background_card"
+            android:src="@drawable/bg_card"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="\?"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_a"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/black"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="A : Bee"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_b"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@color/black"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="B : Pig"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
